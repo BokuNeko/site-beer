@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body style="background-color: antiquewhite;">
+        <h1 id="inizio_pagina">Link</h1>
+        <p>In questa pagina parliamo di link</p>
+        <p>I link sono <bold>Hypertext</bold></p>
+        <hr>
+        <a href="url">sono un link che non funziona</a>
+        <hr>
+        <p>
+            <a href="https://www.google.com" target="_blank">Google</a> <br>
+            Il link superiore porta a google aprendo un'altra scheda
+        </p>
+
+        <p>
+            <a href="https://www.google.com" target="_top">Google</a> <br>
+            Il link superiore prova l'attributo target =<i>_top</i> <br>
+            Questo attributo apre il link nella stessa scheda in cui mi trovo
+        </p>
+
+        
+        <p>
+            <a href="https://www.google.com" target="_parent">Google</a> <br>
+            Il link prova l'attributo target =<i>_parent</i> <br>
+            Questo attributo apre il link nella stessa scheda in cui mi trovo
+        </p>
+        <hr style="border:solid black;">
+
+        <h2>Immagini come link</h2>
+        <p>
+            <a href="https://www.google.com" target="_blank">
+                <img 
+                src="images/Windows_xp_Background.jpg" 
+                alt="sfondo di windows xp" 
+                style="width: 50px; height: 50px;">
+            </a>
+            <br>
+            Uso un immagine come link per un'altra pagina.
+        </p>
+
+        <hr>
+        <h2>Email Links</h2>
+        <a href="mailto:edo.gatti007@gmail.com">Link per scrivere un email</a>
+
+        <hr>
+        <p>Ora utilizzerò dei bottoni per il link</p>
+        <button onclick="document.location='default.asp'">Con questo bottone uso JAVASCRIPT</button>
+
+        <hr style="border:solid black;">    
+        <p>
+            Ora che la pagina si è allungato posso usare i <bold>link</bold> per tornare <br>
+            in determinati punti della pagina a piacimento
+        </p>
+        <a href="#inizio_pagina">Inizio</a>
+    </body>
+
+</html>
